@@ -1,0 +1,82 @@
+\section{sort.\+h File Reference}
+\label{sort_8h}\index{sort.\+h@{sort.\+h}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf sort} (int a[$\,$], int length)
+\item 
+int {\bf myrand} (int max)
+\item 
+int {\bf myrands} (int max, int count)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{sort.\+h@{sort.\+h}!myrand@{myrand}}
+\index{myrand@{myrand}!sort.\+h@{sort.\+h}}
+\subsubsection[{myrand(int max)}]{\setlength{\rightskip}{0pt plus 5cm}int myrand (
+\begin{DoxyParamCaption}
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)}\label{sort_8h_a058b1964f258e6309e68c1696a914d75}
+Generates a (suedo) random integer between 0 and max inclusive 
+\begin{DoxyParams}{Parameters}
+{\em max} & Maximum value for generated random number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+num Random number that has been generated 
+\end{DoxyReturn}
+
+
+Referenced by myrands().
+
+\index{sort.\+h@{sort.\+h}!myrands@{myrands}}
+\index{myrands@{myrands}!sort.\+h@{sort.\+h}}
+\subsubsection[{myrands(int max, int count)}]{\setlength{\rightskip}{0pt plus 5cm}int myrands (
+\begin{DoxyParamCaption}
+\item[{int}]{max, }
+\item[{int}]{count}
+\end{DoxyParamCaption}
+)}\label{sort_8h_a3951da94db54045dda7348bdbe0ef8a1}
+Generates an array of (suedo) random integers between 0 and max inclusive 
+\begin{DoxyParams}{Parameters}
+{\em max} & Maximum value for generated random number \\
+\hline
+{\em count} & The number of random numbers to generate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Aan array of random number that has been generated 
+\end{DoxyReturn}
+
+
+References myrand().
+
+\index{sort.\+h@{sort.\+h}!sort@{sort}}
+\index{sort@{sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{sort(int a[], int length)}]{\setlength{\rightskip}{0pt plus 5cm}void sort (
+\begin{DoxyParamCaption}
+\item[{int}]{a[$\,$], }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)}\label{sort_8h_afb6386c8143f454884ad84185545fcf8}
+File \doxyref{sort.\+h}{p.}{sort_8h} \begin{DoxyAuthor}{Author}
+Kaitlyn Da\+Silva
+\end{DoxyAuthor}
+Header file for function that sorts an array of ints into ascending order.
+
+file \doxyref{sort.\+c}{p.}{sort_8c} \begin{DoxyAuthor}{Author}
+Kaitlyn Da\+Silva 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em arr\mbox{[}$\,$\mbox{]}} & an array of integers \\
+\hline
+{\em length} & the length of arr[]\\
+\hline
+\end{DoxyParams}
+Function which sorts an array of ints into ascending order. 
+
+Referenced by main().
+
